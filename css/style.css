@@ -35,13 +35,13 @@ Grey dark 3: #999
   padding: 0; }
 
 html {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-size: 62.5%; }
 
 *,
 *::after,
 *::before {
-  box-sizing: inherit;
-  font-size: 62.5%; }
+  box-sizing: inherit; }
 
 body {
   font-family: 'Open Sans', sans-serif;
