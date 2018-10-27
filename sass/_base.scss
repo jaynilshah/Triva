@@ -30,6 +30,8 @@ Grey dark 3: #999
     --color-grey-dark-2: #777;
     --color-grey-dark-3: #999;
     --shadow-dark :0 2rem 6rem rgba(0,0,0,0.3);
+    --shadow-light: 0 2rem 5rem rgba(0,0,0,.25);
+    --borderline : 1px solid var(--color-grey-light-2);
 }
 
 *{
@@ -46,13 +48,13 @@ html{
 *::before{
     box-sizing: inherit;
     font-size: 62.5%;
-    color: var(--color-grey-dar-1);
 }
 
 body{
    font-family: 'Open Sans', sans-serif;
    font-weight: 400;
    line-height: 1.6;
+   font-size: 1.4rem;
    background-image: linear-gradient(to right bottom , var(--color-primary-light), var(--color-primary-dark) );
    background-size: cover;
    background-repeat: no-repeat;
